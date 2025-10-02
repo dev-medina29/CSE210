@@ -35,11 +35,6 @@ class Program
                 Console.WriteLine(RandomChoice);
                 Console.Write("> ");
                 Response = Console.ReadLine();
-                // DateTime now =DateTime.Now;
-                // int day = now.Day;
-                // int month = now.Month;
-                // int year = now.Year;
-                // Rp.Add($"{day}/{month}/{year} - Prompt: {Response}");
                 OurTime t = new OurTime();
                 string r = t.Out(Response);
                 Rp.Add(r);
